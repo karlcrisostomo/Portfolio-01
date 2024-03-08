@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply p-2;
+}
+/* .scroll__container{
+  @apply  fixed top-0 left-0 right-0 h-full 
+} */
+
+::-webkit-scrollbar {
+  @apply w-[11px];
+}
+
+::-webkit-scrollbar-track {
+  @apply shadow-none;
+}
+
+::-webkit-scrollbar-thumb.dark_theme {
+  @apply bg-custom-purple  rounded-full;
+}
+::-webkit-scrollbar-thumb.light_theme {
+  @apply bg-gray-400 rounded-full;
+}
+
+.block__container {
+  @apply h-[200px];
+}
+
+.toggle__switch {
+  @apply w-16 h-8  transition-all duration-300 bg-def-theme rounded-full cursor-pointer  flex justify-start;
+}
+
+.toggle__switch[data-ison="true"] {
+  @apply justify-end bg-dark-theme;
+}
+
+.dark_theme {
+  @apply bg-gray-900 text-white transition-colors duration-200;
+}
+
+.light_theme {
+  @apply bg-gray-100 transition-colors duration-300;
+}
+
+.styled__text__gradient {
+  @apply text-transparent bg-gradient-radial from-custom-blue to-custom-purple bg-clip-text tracking-wider font-bold;
+}
+
+/* .styled_skills_container {
+  @apply bg-slate-300 h-[20rem] rounded-lg p-6;
+}
+
+.project__container {
+  @apply border-red-600 border-2  my-36;
+}
+
+.styled__tab__component {
+  @apply flex justify-end gap-2 p-2  transform transition-all duration-300;
+}
+
+.active__panel {
+  @apply bg-gray-300/60 p-2 rounded-lg;
+}
+
+.styled__underline {
+  @apply w-full h-2 rounded-lg  bg-gray-700;
+}
+
+.single__view {
+  @apply max-md:flex-col  p-4 py-12 flex  flex-row gap-5 mx-auto 2xl:w-[80%];
+}
+
+.multiple__view {
+  @apply max-lg:hidden columns-2 gap-4 py-24;
+}
+
+.multiple__view__container {
+  @apply max-md:translate-y-0  translate-y-1/2 py-12 rounded-lg;
+}
+.content__view {
+  @apply flex-col;
+} */

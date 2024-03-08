@@ -1,0 +1,24 @@
+export { default as nextJsIco } from "./akar-icons_nextjs-fill.svg";
+export { default as nodeIco } from "./devicon_nodejs.svg";
+export { default as typeScriptIco } from "./devicon_typescript.svg";
+export { default as figmaICo } from "./logos_figma.svg";
+export { default as jsIco } from "./logos_javascript.svg";
+export { default as reactIco } from "./logos_react.svg";
+export { default as expressJsIco } from "./skill-icons_expressjs-dark.svg";
+export { default as mongoDbIco } from "./skill-icons_mongodb.svg";
+export { default as gitHubIco } from "./uil_github.svg";
+export { default as scssIco } from "./vscode-icons_file-type-scss2.svg";
+export { default as dockerIco } from "./skill-icons_docker.svg";
+export { default as lightMode } from "./fluent-emoji_sun.svg";
+export { default as darkMode } from "./fluent-emoji_full-moon.svg";
+export { default as singleView } from "./single_view.svg";
+export { default as multipleView } from "./multiple_view.svg";
+export { default as PlaceholderImg } from "./placeholder_image.png";
+export { default as externalLink } from "./tabler_external-link.svg";
+export { default as gitHubIco2 } from "./mingcute_github-line.svg";
+export { default as Adaptable } from "./Adaptable.png";
+export { default as Analytical } from "./Analytical.png";
+export { default as Creative } from "./Creative.png";
+export { default as Innovative } from "./Innovative.png";
+export { default as Resourceful } from "./Resourceful.png";
+export {default as Profile} from "./Profile.png"
